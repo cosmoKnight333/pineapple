@@ -1,0 +1,294 @@
+/* ------------------Header Area------------------------ */
+
+.navbar img {
+    height: 40px;
+}
+
+.navbar-brand img:hover {
+    transform: rotate(30deg);
+}
+
+.navbar-brand {
+    padding: 0 2rem 0 5rem;
+}
+
+.navbar {
+    padding: 1rem 3rem;
+    font-family: 'Baloo Tammudu 2', cursive;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.nav-item {
+    padding: 0 1.75rem 0 1.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar-nav .active {
+    background: -webkit-linear-gradient(#5D3FD3, #E6E6FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-item:hover {
+    padding: 0 1.75rem 0 1.75rem;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#5D3FD3, #E6E6FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* -----------------End Header Area------------------------ */
+
+
+/* -------------------Banner Area------------------------ */
+
+.title-left img {
+    height: 22rem;
+}
+
+.button img {
+    height: 20px;
+    width: 20px;
+}
+
+col-lg-6 {
+    padding: 0;
+    ;
+}
+
+col-md-12 {
+    padding: 0;
+    ;
+}
+
+.title-right {
+    padding-top: 30%;
+    padding-left: 0%;
+    text-align: center;
+}
+
+.title-left {
+    padding-left: 0%;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Zilla Slab', serif;
+    background: -webkit-linear-gradient(#e6e8fa, #E6E6FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.site-main {
+    background-image: linear-gradient(to right, #111111, #222222);
+    text-align: center;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+    ;
+}
+
+.container-fluid {
+    margin: 0 100px 0 100px;
+}
+
+.title-right h1 {
+    background: -webkit-linear-gradient(#e6e8fa, #E6E6FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+
+.title-right h3 {
+    background: -webkit-linear-gradient(#e6e8fa, #E6E6FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.site-main .btn-outline-dark {
+    border-color: #576ead;
+}
+
+.site-main .btn-dark {
+    background-image: linear-gradient(#9167d4, #7f63ca);
+}
+
+.site-main .btn-dark:hover {
+    background-image: linear-gradient(#6033a3, #3d3064);
+}
+
+
+/*--------------------------- Product Area ------------------------------ */
+
+.product-area {
+    padding: 7rem 3rem;
+    background-image: linear-gradient(to right, #fdfaff, #dad6dd);
+    margin: 0;
+}
+
+.products img {
+    position: relative;
+    left: 20px;
+}
+
+.product-head {
+    padding-bottom: 2rem;
+}
+
+.product-head h1 {
+    font-size: 35px;
+}
+
+.product-card {
+    border: 2px solid;
+    border-color: #9167d4;
+    padding: 2rem 0rem;
+}
+
+.product-card:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.product-card .btn-outline-dark {
+    border-color: #linear-gradient(#9167d4, #7f63ca);
+}
+
+.product-card .btn-outline-dark:hover {
+    background-image: linear-gradient(#ab94ce, #a788ee);
+}
+
+
+/*--------------------------- End Product Area ------------------------------ */
+
+
+/*--------------------------- About Area1 ------------------------------ */
+
+.about-area1 {
+    padding-top: ;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #111111, #222222);
+}
+
+.about-area1 .container {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.about1-title {
+    line-height: 1.5rem;
+}
+
+.about-area1 img {
+    width: 80%;
+    height: auto;
+    padding-top: 5rem;
+}
+
+.about1-content {
+    text-align: center;
+    padding-top: 5%;
+    position: relative;
+    right: 5rem;
+}
+
+.about-area1 {
+    padding: 3rem;
+}
+
+
+/*-----------------------End About area1----------------------------------*/
+
+
+/*--------------------------- About Area2 ------------------------------ */
+
+.about-area2 .container {
+    padding: 10rem 3rem 28rem 0rem;
+}
+
+.about-area2 {
+    background-image: linear-gradient(to right, #fdfaff, #dad6dd);
+}
+
+.pargr {
+    padding-top: 40px;
+    position: relative;
+    left: 2.5rem;
+}
+
+.bt1 {
+    margin-left: 0rem;
+}
+
+
+/*-----------------------End About area2----------------------------------*/
+
+
+/*-----------------------About area3----------------------------------*/
+
+.about-area3 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #111111, #222222);
+}
+
+.about-area3 .container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.about-title {
+    line-height: 1.5rem;
+}
+
+.about-area3 img {
+    width: 80%;
+    height: auto;
+    padding-top: 0rem;
+}
+
+.about3-content {
+    text-align: center;
+    padding-top: 5%;
+    position: relative;
+    right: 5rem;
+}
+
+.about-area3 {
+    padding: 3rem;
+}
+
+
+/*-----------------------End About area1----------------------------------*/
+
+
+/*-----------------------About area4----------------------------------*/
+
+.about-area4 .container-fluid {
+    padding: 10rem 3rem 28rem 3rem;
+}
+
+.about-area4 {
+    padding: 7rem 0rem;
+    background-image: linear-gradient(to right, #fdfaff, #dad6dd);
+}
+
+.pargr {
+    padding-top: 40px;
+}
+
+.bt1 {
+    margin-left: 0rem;
+}
+
+
+/* 
+----------------------------Footer------------------------------ */
+
+.footer-area {
+    background-image: linear-gradient(to right, #111111, #222222);
+    color: white;
+    padding-bottom: 2rem;
+}
